@@ -1,0 +1,147 @@
+:root {
+    --navHeight: 100px; 
+  }
+.leftPane{
+    flex: 1;
+   /* height: calc(100vh - var(--navHeight)); */
+    
+    transition: opacity 0.3s;
+    position: fixed;
+    background-color: #cffeee;
+    overflow-y: auto;
+    left: 0;
+    z-index: 1000;
+    top: 60px;
+
+    
+}/*
+.leftPane::-webkit-scrollbar {
+    width: 10px; 
+    
+  }
+  
+  .leftPane::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px;
+    
+  }
+  
+  .leftPane::-webkit-scrollbar-track {
+    background-color: #d7d3d3; 
+  }
+  
+  
+  .leftPane:hover {
+    overflow-y: auto; 
+  }
+  
+*/
+.leftPaneContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 15px 30px 5px;
+    padding: 25px 20px 20px ;
+    height: 90vh;
+    background-color: #0cac74;
+    align-items: flex-start;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+
+
+}
+.leftPaneFristPart{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    padding-bottom: 8px;
+    
+    border-bottom: 2px solid #0cac74;
+}
+.leftPaneProfile{
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.leftPaneProfileContent h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #302c34;
+}
+.leftPaneProfileContent h5{
+    font-size: 14px;
+    font-weight: 300;
+    color: #302c34;
+}
+
+.leftPaneLists ul{
+    list-style: none;
+    
+    
+
+}
+.leftPaneLists ul li{
+   
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    color: #302c34;
+    padding: 15px 130px 15px 0;
+    border-radius: 10px;
+   
+    
+    
+}
+.leftPaneLists ul li:hover{
+    background-color: #f5f5f5;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+.LeftPaneIcon{
+    margin-right: 18px;
+    font-size: 25px;
+    width:30px;
+    padding-left: 10px;
+   
+}
+.logoutButton{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.removeIcon{
+    color: #f5f5f5;
+    font-size: 25px;
+    margin-left: 35px;
+    display: none;
+}
+
+/*-----------media  Query-------------*/
+@media(max-width:1200px){
+    .leftPane{
+        display: none;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+    .leftPane.hide {
+        display: flex;
+        transform: translateX(-100%);
+      }
+      
+      .leftPane.open {
+        display: flex;
+        transform: translateX(0);
+      }
+      .removeIcon{
+        display: block;
+      }
+      .cutomHideMenu{
+        background-color: transparent;
+       
+      }
+      .leftPaneContainer{
+        margin: 0;
+        height: 100vh;
+        border-radius: 0;
+      }
+}

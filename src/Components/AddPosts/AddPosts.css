@@ -1,0 +1,69 @@
+.addPosts{
+    box-shadow:   0 1px 5px black;
+    background-color: #f5f5f5;
+    padding: 25px 17px ;
+    border-radius: 15px;
+}
+.addPostTop{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+   
+}
+.addPostTop button{
+    display: inline-flex;
+    width: 100%;
+    margin: 0 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding: 10px ;
+    background-color: #cffeee;
+    color:#666464;
+    font-size: 18px;
+
+}
+.addPostTop button:hover{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #98e1c7;
+
+}
+.addPostBottom{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+    justify-content: space-around;
+}
+.addPostBottIcon{
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.addPostBottIcon p{
+    margin-left: 8px;
+    font-size: 18px;
+    color:#666464;
+}
+
+@media screen and (max-width: 870px) {
+    .addPosts{
+        border-radius: 0;
+    }
+    .addPostTop button {
+      font-size: 15px; 
+    }
+    .addPostBottIcon p{
+        
+     font-size: 15px;
+        
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .addPostTop button {
+      font-size: 12px; 
+    }
+  }

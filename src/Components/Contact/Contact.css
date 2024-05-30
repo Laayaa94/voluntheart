@@ -1,0 +1,126 @@
+.contactUs {
+    margin: 40px auto;
+    width:80%;
+}
+.contactUs h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 15px;
+    color:rgb(48, 44, 52) ;   
+}
+.contactUs .intro{
+    text-align: center;
+    color: rgb(97, 94, 94);
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.column{
+    margin:5px;
+    flex:1;
+}
+
+.contact{
+    display: flex;
+    align-items: center; 
+    margin: 40px 40px;
+}
+
+.icons{
+   width: 60px;
+   height:60px;
+   display: flex;
+   margin-right: 30px;
+   align-items: center;
+   border-radius: 50%;
+   justify-content: center;
+   background-color: rgb(48, 44, 52);
+}
+.column form{   
+    width:75%;    
+    margin: 40px 40px;
+    padding: 0 25px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+.column form h2{
+    color: rgb(12, 172, 116);
+    
+}
+
+.column .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.rowText h2{ 
+    color: rgb(12, 172, 116);
+    font-weight: 600;
+    
+}
+.rowText p{
+    font-size: 17px;
+    line-height:1.5 ;
+    color: #666;
+}
+
+.column .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.column .inputBox input,textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color:#f5f5f5;
+    border-bottom: 2px solid rgb(12, 172, 116);
+}   
+.inputBox span{
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+    border: none;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+   
+}
+.column .inputBox input:focus ~ span,
+.column .inputBox input:valid ~ span,
+.column .inputBox textarea:focus ~ span,
+.column .inputBox textarea:valid ~ span
+    {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.column .inputBox input[type="submit"]{
+    width: 100px;
+    background-color: rgb(12, 172, 116);
+
+}
+@media (max-width:700px){
+    .icons{
+        width:40px;
+        height: 40px;
+        
+    }
+    .contactIcon{
+        font-size: 12px;
+    }
+    .contact{
+        margin: 15px 0;
+    }
+    .rowText h2{
+        font-size: 20px;
+    }
+}

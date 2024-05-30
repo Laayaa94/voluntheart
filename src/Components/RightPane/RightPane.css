@@ -1,0 +1,92 @@
+
+.rightPane{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    background-color: #cffeee;
+    margin: 0 15px 0 370px;    
+}
+.postPaneforRight{
+  flex:2;
+}
+.allBox h3{
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #302c34;
+    padding:  30px 10px 5px;
+}
+.allBox h6{
+  
+  font-size: 18px;
+    font-weight: 600;
+    color: #302c34;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.allBox{
+     flex:1;
+     position: fixed;
+     right: 0;
+     height: 100vh;
+     width: 400px;
+     transition: opacity 0.3s;
+      background-color: #cffeee;
+      margin: 5px 0;
+      overflow-y: hidden;
+      border-radius: 15px;
+}
+
+
+.allBox::-webkit-scrollbar {
+  width: 10px; 
+  
+}
+
+.allBox::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 10px;
+  
+}
+
+.allBox::-webkit-scrollbar-track {
+  background-color: #d7d3d3; 
+}
+
+
+.allBox:hover {
+  overflow-y: auto; 
+}
+
+
+/*-------------media Query ---------------*/
+@media(max-width:1200px){
+  .rightPane{
+    margin-left:0px;
+    width: 100%;
+   
+  }
+  .postPaneforRight{
+    flex: 1;
+    width: 100%;
+  }
+}
+@media(max-width:870px){
+  .allBox{
+    display: none;
+  }
+  .rightPane{
+    margin-left:0px;
+    width: 100%;
+   
+  }
+  .postPaneforRight{
+    flex: 1;
+    width: 100%;
+  }
+  
+}
+
+
+  

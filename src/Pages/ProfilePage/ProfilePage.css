@@ -1,0 +1,44 @@
+.profilePage{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height:100vh;
+    overflow-y: auto;
+   
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.profilePageContent{
+    padding-top: 60px;
+    
+}
+.intoAndPostArea{
+    padding:15px 10% ;
+    display: flex;
+}
+  
+.intro{
+    flex: 3;
+    
+    
+    
+}
+.postPartProfilePage{
+    flex: 4;
+    padding-left: 5px;
+    padding-top: 5px;
+    
+}
+
+
+@media(max-width:870px){
+    .intoAndPostArea{
+        flex-direction: column;
+        padding: 25px;
+    }
+}

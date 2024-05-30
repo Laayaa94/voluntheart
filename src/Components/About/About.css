@@ -1,0 +1,450 @@
+.about{
+    margin: 40px auto;
+    width:80%;
+}
+.about h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 15px;
+    color:#302c34 ;   
+    
+}
+.about .intro{
+    text-align: center;
+    color: #615e5e;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.about h2{
+    margin-top: 30px;
+    color: #0cac74;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.rowColumn{
+    display: flex;
+    margin: 5px;
+ 
+    
+}
+.contentRow{
+    text-align: left;
+    padding: 25px;
+    flex: 1;
+    
+    
+}
+.iconRow{
+    padding: 15px;
+    color: #f5f5f5;
+    font-size: 25px;
+    background-color: #0cac74;
+    border-radius: 50%;
+    margin-bottom: 15px;
+
+}
+.contentRow h4{
+    color:#302c34 ;   
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.contentRow p{
+    color: #615e5e;
+    font-size: 20px;
+}
+
+
+
+
+.photoOfAbout img{
+    
+    height: 300px;
+    width: 45%;
+    margin-bottom: 50px;
+    border-radius: 45px;
+    
+}
+.photoRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.custom{
+    text-align: center;
+}
+
+
+/*box css ---------------------------*/
+.hiddenh2{
+    display: none;
+    
+}
+.boxGoal{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    box-shadow: 0  1px 10px black;
+    height: 600px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    
+    
+}
+
+.columnboxGoal1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.columnboxGoal2{
+    flex:2;
+    background:linear-gradient(rgba(48, 44, 52, 0.5),rgba(48, 44, 52, 0.8)),url('../../assets/poorChildWallEdit.jpg');
+    background-color: rebeccapurple;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.columnboxGoal3{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.boxContent{
+    background-color: #0cac74;
+    flex: 1;
+    padding: 25px;
+    text-align: center;   
+    
+}
+.lightGreen,.blue,.black h4,p{
+    color: #f5f5f5;
+}
+.boxContent h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.boxContent p{
+    font-size: 14px;
+}
+
+ .green{
+    background-color: #0d8579;
+    flex: 1;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: #f5f5f5;
+    
+}
+.white h4{
+    color: #302c34;
+}
+.white p{
+    color: #615e5e;
+}
+.white .blackIcon{
+    color: #302c34;
+}
+
+
+.lightGreen{
+    background-color: #0f9285;
+}
+
+.rowGoalContent{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.topicGoal{
+    flex: 1;
+    background-color: #f5f5f5;
+    color: #302c34;
+}
+.topicGoal h2{
+    text-align: center;
+    
+}
+.topicGoal p{
+    color: #615e5e;
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.iconBox{
+    font-size: 40px;
+    padding-bottom: 25px;
+    color: #f5f5f5;
+    
+
+}
+
+/* -------------------------whychoose box---------- */
+
+.whyCooseBox{
+    display: flex;
+    margin-top: 50px;
+}
+.whyCooseBox h4{
+    color: #302c34;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.whychooseTopic{
+    color: #0cac74;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+}
+.whyContent{
+    display: flex;
+    margin: 25px 25px 50px;
+    align-items: center;
+}
+.whyContent p{
+    color: #615e5e;
+    font-size: 18px;
+    
+}
+.whychooseContent{
+    display: flex;
+   
+}
+.iconwhy{
+    color: #0cac74;
+    font-size: 35px;
+    margin-right: 15px;
+    margin-left: 10px;
+    
+}
+.whyRow{
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+}
+.whybox1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #0cac74;    
+}
+.whybottom{
+    border-top: 2px solid #0cac74;
+    padding-top: 40px;
+}
+.whybox2{
+    flex: 1;
+}
+.topicWhyChoose{
+    display: flex;
+    align-items: flex-start;
+    
+    padding-top: 40px;
+    
+}
+.topicWhyChoose img{
+    border-radius: 50%;
+}
+
+.innerbox2{
+    margin-top: 75px;
+}
+
+
+.topic h3{
+    font-size: 28px;
+    text-align: center;
+    color: #0cac74;
+    align-items: center;
+    padding: 50px;
+}
+
+.rowAbout h4{
+    font-size: 20px;
+}
+.rowAbout p{
+    font-size: 18px;
+}
+/*---------------------photo Gallery--------------*/
+.photosGallery{
+    display: flex;
+    max-width: 1245px;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 100px;
+    
+}
+.columnPhotoGallery{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.photoGallery img{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow:  0 1px 5px black;
+}
+
+
+/*-------------------------------service part ----*/
+
+.servicePart p{
+    color: #f5f5f5;
+    font-size: 18px;
+    display: flex;
+    padding: 0 25px;
+    
+}
+.servicePart h4{
+    color: #f5f5f5;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.ServiceRow{
+    display: flex;
+    
+}
+.service{
+    text-align: center;
+    flex: 1;
+    background-color: #0cac74;
+    padding: 25px 30px 50px;
+    margin: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.iconService{
+    color: #f5f5f5;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.customBlack{
+    background-color: #302c34;
+}
+.customBlack p{
+    color: #b1aeae;
+}
+
+
+@media (max-width:1200px){
+    .whyCooseBox{
+        flex-direction: column;
+    }
+    .topicWhyChoose{
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+}
+@media(max-width:700px){
+    .about .intro{
+            padding:0 30px;
+    }
+    .about{
+        width: 100%;
+    }
+    .rowColumn{
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .photoRow{
+        flex-direction: column;
+       
+    }.photoOfAbout img{
+        width: 90%;
+    }
+
+   /*------------------------------------*/
+   .whybox1{
+    border: none;
+
+   }
+   .whychooseContent{
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+   }
+   .whybottom{
+    padding-bottom: 40px;
+    border-bottom: 2px solid #0cac74 ;
+    padding-top: 40px;
+}
+.innerbox2{
+    margin-top: 0;
+}
+
+}
+@media (max-width:870px) {
+    .about{
+        width: 100%;
+    }
+    .photosGallery{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        
+    }
+   
+    .goalContent{
+        flex-direction: column;
+    }
+    .goalContent p{
+        text-align: center;
+    }
+    .contentRow{
+        text-align: center;
+    }
+    .photoOfAbout img{
+        margin: 15px 15px;
+    }
+    .columnboxGoal2{
+        display: none;
+    }
+    .ServiceRow{
+        flex-direction: column;
+        width: 75%;
+        margin: auto;
+    }
+
+    
+   
+}
+
+@media(max-width:550px){
+    .hiddenh2{
+        display: block;
+        
+    }
+    .topicGoal{
+        display: none;
+    }
+    .boxGoal{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .columnboxGoal3{
+        flex: 1;
+    }
+    .columnboxGoal1{
+        flex-direction: column;
+    }
+    .rowGoalContent{
+        flex-direction: column;
+    }
+}

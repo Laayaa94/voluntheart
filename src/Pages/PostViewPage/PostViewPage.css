@@ -1,0 +1,34 @@
+:root {
+    --navHeight: 60px; 
+  }
+.postViewPage{
+    background-color: #cffeee;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    position:relative;
+}
+.navPart{
+    width: 100%;
+}
+.bottomContainer{
+    margin-top:60px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    background-color: #cffeee;
+    
+    
+}
+.leftPaneContainerPostViewPage{
+    height:100vh;
+    z-index: 9;
+        
+}
+.rightPaneContainerPostViewPage{
+    width: 100%;
+   
+}

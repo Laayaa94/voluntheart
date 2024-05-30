@@ -1,0 +1,84 @@
+.profileIntroPartContainerBox{
+    display: flex;
+    height:auto;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow:   0 1px 4px black;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    
+}
+.profileInfo{
+    padding: 20px;
+    margin:5px 1px 20px;
+    border-radius: 15px;
+}
+.infoColumn h3{
+    font-weight: 600;
+    font-size: 25px;
+    padding: 0 15px;
+}
+.infoColumn p{
+    color: gray;
+}
+.infoColumn button{
+    width: 100%;
+    margin: 15px 0;
+   padding: 10px;
+   border-radius: 10px;
+   color: #302c34;
+   font-size: 16px;
+   font-weight: 600;
+   outline: none;
+   border: 1px solid #302c34;
+}
+.introText {
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.introIcon{
+    width: 15px;
+}
+.profileInfo hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 24px 0;
+}
+.infoColumn ul li{
+    list-style: none;
+    font-size: 16px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    color: #302c34;
+}
+.introListIcon{
+    width: 26px;
+    margin-right: 10px;
+    color: gray;
+    padding-left: 15px;
+}
+.photoPart{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.photoPart a{
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 14px;
+}
+.photoBox{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap:10px;
+    margin-top: 15px;
+}
+.photoBox img{
+    width: 100%;
+    cursor: pointer;
+}

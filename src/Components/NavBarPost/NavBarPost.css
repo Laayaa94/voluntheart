@@ -1,0 +1,180 @@
+
+.customNav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 ;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    
+   
+}
+.profileImg{
+    cursor: pointer;
+}
+.logoPart{
+    flex: 3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.logo{
+    margin: 5px 25px;
+    
+}
+.inputSearchBar{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #f5f5f5;
+
+}
+.searchBar{  
+    margin: 5px 25px; 
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adjusSearchbar{
+    width: 80%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.search{
+    color: black;
+}
+
+/*----------------link parts -------------*/
+
+.CustomNavRight{
+    display: flex;
+    flex: 3;
+    align-items: center;
+    margin:  5px 25px;
+    justify-content: space-between;
+}
+.navIcon{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.profileImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.customSpan{
+    display: flex;
+}
+.spanTag{
+    font-size: 14px;
+    background-color:red;
+    position: relative;
+    bottom: 10px;
+    width:15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 50%;
+    
+}
+.customNaviBarMenuIcon{
+    display: none;
+    font-size:20px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.plusIconNaviBar{
+    font-size: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+.mobileversionApps{
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+
+}
+
+
+/*-------------------media query -----------*/
+@media(max-width:1200px){
+    .customNaviBarMenuIcon{
+        display: block;
+    }
+}
+@media (max-width:870px){
+
+    .customNaviBarMenuIcon{
+        display: block;
+        cursor: pointer;
+    }
+    .profileImg{
+        display: none;
+    }
+    .plusIconNaviBar{
+        display: block;
+    }
+    .hideMenuIconWhenSmall{
+        display: none;
+        
+    }
+    .adjusSearchbar{
+        width:50% ;
+    }
+    
+}
+@media(max-width:700px){
+    .logocustom{
+        width:90px;
+        height: 30px;
+        padding-left: 15px;
+        margin-left: 0;
+       
+    }
+    .logoPart{
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .logoPart, .searchBar,.CustomNavRight{
+        flex:1;
+        background-color: aqua;
+        margin: 5px 0;
+        display: none;
+    }
+        .mobileversionApps{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;  
+            padding: 0 10px;  
+        
+        }
+        .mobileversionApps img,input{
+            margin: 0;
+            padding: 0;
+        }
+        .plusIconNaviBar,.navIcon,.customNaviBarMenuIcon{
+            margin: 0;
+            padding: 0;
+        }
+        .search{
+            color: #f5f5f5;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    } 

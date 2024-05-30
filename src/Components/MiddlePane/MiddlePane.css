@@ -1,0 +1,17 @@
+
+  .middlePane{
+    flex: 6;
+    margin-right:400px;
+    background-color: #cffeee;
+
+}
+@media(max-width:1200px){
+  
+}
+
+@media(max-width:870px){
+  .middlePane{
+    width: 100%;
+    margin: 0;
+}
+}
