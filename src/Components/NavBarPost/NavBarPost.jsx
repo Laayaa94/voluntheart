@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './NavBarPost.css'
 import logo from '../../assets/logo3.png'
-import profile from '../../assets/profile.jpg'
+import profile from '../../assets/praboda.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleChevronDown, faGear, faHome, faNavicon, faPlusCircle, faSearch } from '@fortawesome/free-solid-svg-icons'
 import { faBell, faMessage } from '@fortawesome/free-solid-svg-icons'

@@ -15,6 +15,7 @@
 }
 .profileImg{
     cursor: pointer;
+    object-fit: cover;
 }
 .logoPart{
     flex: 3;

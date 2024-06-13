@@ -1,7 +1,7 @@
 import React from 'react'
 import './LeftPane.css'
 import { faRemove } from '@fortawesome/free-solid-svg-icons'
-import profile from '../../assets/profile.jpg'
+import profile from '../../assets/praboda.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBell, faCalendarDay, faComment,  faMessage, faPhone, faUsers } from '@fortawesome/free-solid-svg-icons'
 import { faBlogger } from '@fortawesome/free-brands-svg-icons'

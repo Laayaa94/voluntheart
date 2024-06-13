@@ -1,6 +1,6 @@
 import React from 'react'
 import './AddPosts.css'
-import profile from '../../assets/profile.jpg'
+import profile from '../../assets/praboda.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhotoFilm, faVideo } from '@fortawesome/free-solid-svg-icons'
 import { faSmile } from '@fortawesome/free-regular-svg-icons'

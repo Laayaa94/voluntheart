@@ -1,6 +1,6 @@
 import React from 'react'
 import './ProfilePhoto.css'
-import profile from '../../../assets/profile.jpg'
+import profile from '../../../assets/praboda.jpeg'
 import coverProfile from '../../../assets/cover.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEllipsis, faFileEdit, faPencil, faPlus } from '@fortawesome/free-solid-svg-icons'
@@ -14,8 +14,8 @@ const ProfilePhoto = () => {
             <div className="pdRow">
               <img src={profile} alt=""  className='pd-image'/>
               <div className="namemail">
-                <h3>Denil Decker</h3>
-                <p>denilDecker94@gmail.com</p>
+                <h3>Prabodha Harshani</h3>
+                <p>prabodaharshani94@gmail.com</p>
               </div>
             </div>
             
