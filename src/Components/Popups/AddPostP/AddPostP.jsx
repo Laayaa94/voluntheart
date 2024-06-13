@@ -30,7 +30,7 @@ const AddPostP = ({ open, onClose }) => {
 
                     <DialogActions>
                         <div style={{ flexGrow: 1 }}></div> {/* Add space between buttons */}
-                        <Button onClick={onClose}>Cancel</Button>
+                        <Button onClick={onClose} className='canslebtn'>Cancel</Button>
                         <Button variant='contained' color='primary'>Post</Button>
                     </DialogActions>
                 </DialogContent>

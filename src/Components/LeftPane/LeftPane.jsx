@@ -30,8 +30,8 @@ const LeftPane = ({leftpaneMinus,isOpen,togglePane}) => {
           <img src={profile} alt="" className='Profile' onClick={handleProfileImg}/>
         </div>
         <div className="leftPaneProfileContent">
-        <h3>Full Name</h3>
-        <h5>enter@youremail.com</h5>
+        <h3>Prabodha Harshani</h3>
+        <h5>prabodaharshani94@gmail.com</h5>
         </div>
         <FontAwesomeIcon icon={faRemove} className='removeIcon' onClick={togglePane}/>
         </div>

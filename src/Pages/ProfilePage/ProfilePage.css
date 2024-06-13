@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    height:100vh;
     overflow-y: auto;
+    z-index: 10;
+    
    
 }
 .nav{
@@ -15,18 +16,21 @@
 }
 .profilePageContent{
     padding-top: 60px;
+    margin-left: 250px;
+   
     
 }
 .intoAndPostArea{
     padding:15px 10% ;
     display: flex;
+    margin-left: 250px;
 }
   
 .intro{
     flex: 3;
+    height: 100vh;
     
-    
-    
+  
 }
 .postPartProfilePage{
     flex: 4;
@@ -34,7 +38,15 @@
     padding-top: 5px;
     
 }
+@media(max-width:1200px){
+    .profilePageContent{
+        margin-left: 0;
+    }
+    .intoAndPostArea{
+        margin-left: 0;
+    }
 
+}
 
 @media(max-width:870px){
     .intoAndPostArea{

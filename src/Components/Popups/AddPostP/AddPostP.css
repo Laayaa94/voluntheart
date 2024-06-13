@@ -11,6 +11,7 @@
 }
 .UserImage{
     display: inline-flex;
+    align-items: center;
     
 }
 .profileImage {
