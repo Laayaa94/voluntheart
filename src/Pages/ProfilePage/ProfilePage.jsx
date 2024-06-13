@@ -20,7 +20,7 @@ const ProfilePage = () => {
       <ProfilePhoto/>
       </div>
       <div className="intoAndPostArea">
-        <div className="intro">
+        <div className="introOfProfilePage">
          <ProfileIntro/>
          
         </div>
